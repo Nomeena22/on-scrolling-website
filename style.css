@@ -11,14 +11,14 @@ nav {
     display: flex;
     width: 100%;
     height: 15vh;
-    background-color: red;
+    /* background-color: red; */
     align-items: center;
     justify-content: space-between;
     padding: 0vw 3vw;
     cursor: pointer;
 }
 .left-nav {
-    background-color: yellow;
+    /* background-color: yellow; */
     font-size: 2.9vw;
     height: 6vh;
     overflow: hidden;
@@ -34,7 +34,7 @@ nav {
     margin-top: -5.5vh;
  } */
   .right-nav {
-    background-color: yellow;
+    /* background-color: yellow; */
     font-size: 1.5vw;
     height: 3vh;
     overflow: hidden;
@@ -45,4 +45,9 @@ nav {
 }
 .right-nav h2 {
     transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+ }
+ .container {
+    width: 100%;
+    height: 100vh;
+    
  }
