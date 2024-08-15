@@ -8,6 +8,7 @@ html, body {
     height: 100vh;
 }
 nav {
+    position: fixed;
     display: flex;
     width: 100%;
     height: 15vh;
@@ -19,7 +20,7 @@ nav {
 }
 .left-nav {
     /* background-color: yellow; */
-    font-size: 2.9vw;
+    font-size: 1.5vw;
     height: 6vh;
     overflow: hidden;
 }
@@ -35,7 +36,7 @@ nav {
  } */
   .right-nav {
     /* background-color: yellow; */
-    font-size: 1.5vw;
+    font-size: 0.7vw;
     height: 3vh;
     overflow: hidden;
   }
@@ -46,8 +47,49 @@ nav {
 .right-nav h2 {
     transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
  }
- .container {
+ .part-1 {
     width: 100%;
     height: 100vh;
-    
+  
  }
+.contetn-1{
+    background-color: red;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rotate-div {
+    width: 150vw;
+    height: 150vh;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+}
+.row-div {
+    display: flex;
+    flex-direction: column;
+    width: calc(150vw/5);
+    height: 100%;
+    gap: 1vw;
+
+}
+.img-div {
+    width: 100%;
+    height: calc(100%/4);
+    /* background-color: red; */
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+.img-div img {
+    
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+
+
+}
