@@ -213,6 +213,7 @@ nav {
 
 .text-area h1, .text-area-blur h1{
     font-size: 5vw;
+    margin-left: 5vw;
 }
 
 .text-area h2, .text-area-blur h2{
