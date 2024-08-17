@@ -11,17 +11,39 @@ function raf(time) {
 
 requestAnimationFrame(raf)
 
-// var tlmain = gsap.timeline({scrollTrigger:{
-//     trigger: ".main-overly",
-//     start:"50% 50%",
-//     end:"70% 50%",
-//     scrub:true,
-//     markers:true,
-//     pin:true,
-// }})
-//     tlmain.to("#1", {
-//     scale: 3,
-// })
+
+var tlmain = gsap.timeline();
+
+    tlmain.to("#one", {
+    opacity: 2,
+    duration: 0.5,
+})
+.to("#two", {
+    opacity: 1,
+
+},"a")
+.to("#one", {
+    opacity: 0,
+},"a")
+.to("#three", {
+    opacity: 1,
+},"b")
+.to("#two", {
+    opacity: 0,
+},"b")
+.to("#four", {
+    opacity: 1,
+},"c")
+.to("#three", {
+    opacity: 0,
+},"c")
+tlmain.to(".center-centent", {
+   height:0,
+   opacity: 0,
+   zIndex: 0,
+},)
+
+
 
 
 
