@@ -10,6 +10,21 @@ function raf(time) {
 }
 
 requestAnimationFrame(raf)
+
+// var tlmain = gsap.timeline({scrollTrigger:{
+//     trigger: ".main-overly",
+//     start:"50% 50%",
+//     end:"70% 50%",
+//     scrub:true,
+//     markers:true,
+//     pin:true,
+// }})
+//     tlmain.to("#1", {
+//     scale: 3,
+// })
+
+
+
 var tl = gsap.timeline({scrollTrigger:{
     trigger: ".part-1",
     start:"50% 50%",
