@@ -191,3 +191,32 @@ tl6.to(".rounded-div-wrapper-6",{
     height:"0%",
     marginTop: 0,
 })
+
+let tl7 = gsap.timeline({
+    scrollTrigger:{
+        trigger: ".part-7",
+        start:"50% 50%",
+        end: "300% 50%",
+        pin:true,
+        // markers: true,
+        scrub: 1,
+    },  
+});
+tl7.to("#demo",{
+    bottom:"7%",
+})
+tl7.to(".our-work-txt-div",{
+    height:"60vh",
+}, 'height')
+tl7.to(".our-work",{
+    height:"60vh",
+}, 'height')
+tl7.to("#our",{
+    left:"0%",
+}, 'height')
+tl7.to("#work",{
+    right:"0%",
+}, 'height')
+tl7.to(".scroll-img",{
+    marginTop:"-300%",
+})
