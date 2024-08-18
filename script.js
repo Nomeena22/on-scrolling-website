@@ -178,3 +178,16 @@ tl5.to(".content-5 .text-area-blur-5 h2",{
     delay: -0.4,
     width:"100%",
 })
+let tl6 = gsap.timeline({
+    scrollTrigger:{
+        trigger: ".part-6",
+        start:"0% 70%",
+        end: "15% 50%",
+        // markers: true,
+        scrub: 1,
+    },  
+});
+tl6.to(".rounded-div-wrapper-6",{
+    height:"0%",
+    marginTop: 0,
+})

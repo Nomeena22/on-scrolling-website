@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: FontOne;
   src: url(./Assets/Font.ttf);
 }
@@ -409,7 +409,7 @@ img {
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     background-color: #ffff;
     overflow: hidden;
 }
@@ -430,7 +430,6 @@ img {
   justify-content: center;
   width: 100%;
   height: 70vh;
-  background-color: #740c0c;
   overflow: hidden;
   letter-spacing: -5px;
   margin-top: 1vh;
@@ -479,3 +478,60 @@ img {
   overflow: hidden;
 }
 
+.part-6{
+  width: 100%;
+  height: 100vh;
+  background-color: #ebebeb;
+}
+
+.part-6 .rounded-div-wrapper-6{
+  position: relative;
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  margin-top: 100px;
+}
+
+.part-6 .rounded-div-6{
+  bottom:  0;
+  position: absolute;
+  left: 50%;
+  width: 150%;
+  height: 750%;
+  border-radius: 50%;
+  background-color: #fff;
+  transform: translate(-50%);
+}
+.part-7 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  color: white;
+}
+.our-work {
+  position: relative;
+  /* width: 10vw; */
+  z-index: 10;
+  background-color: red;
+}
+#our{
+  position: absolute;
+  top: 0;
+  /* left: 35%; */
+  left: 0%;
+  transform: translate(-20%, -50%);
+  font-size: 5vw;
+}
+#work{
+  position: absolute;
+  bottom: 0;
+  /* right: 35%; */
+  right: 0%;
+  transform: translate(20%, 50%);
+  font-size: 5vw;
+}
+
+ */
