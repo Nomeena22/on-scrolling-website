@@ -535,7 +535,7 @@ img {
   transform: translate(20%, 50%);
   font-size: 5vw;
 }
-.our-work-txt-div{
+.our-work-text-div{
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -547,7 +547,7 @@ img {
 }
 
 .scroll-work{
-  width: 60vw;
+  width: 100%;
   height: 60vh;
   background-color: #919191;
   overflow: hidden;
@@ -567,10 +567,10 @@ img {
 
 #demo{
   position: absolute;
-  bottom: -10%;
-  padding: 1.5vw 3vw;
+  bottom: 15%;
+  padding: 1vw 2vw;
   background-color: #d1d1d1;
-  font-size: 0.8vw;
+  font-size: 1.2vw;
   border: none;
   border-radius: 50px;
 }

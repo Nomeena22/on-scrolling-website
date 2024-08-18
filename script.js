@@ -128,7 +128,7 @@ tl4.to(".c-one",{
 tl4.to(".c-two",{
     opacity:"1",
 }, 'sct-2')
-tl4.to(".cir-part-4",{
+tl4.to(".cir-part-4",{   // left side-star
     rotate: 120,
 }, 'sct-2')
 tl4.to(".c-one",{
@@ -141,12 +141,14 @@ tl4.to(".c-three",{
 tl4.to(".c-two",{
     opacity:"0",
 }, 'sct-3')
-tl4.to(".cir-part-4",{
-    rotate: 260,
-}, 'sct-3')
 tl4.to(".c-one",{
     marginTop:"-180%",
 }, 'sct-3')
+
+//left-side-star
+tl4.to(".cir-part-4",{
+    rotate: 260,
+}, 'sct-3')         
 tl4.to(".c-one",{
     marginTop:"-230%",
 }, 'sct-4')
@@ -156,6 +158,7 @@ tl4.to(".cir-part-4",{
 tl4.to(".c-three",{
     opacity:"0",
 }, 'sct-4')
+
 tl4.to(".cir-part-4",{
     marginLeft:"94%",
     rotate: 400,
@@ -167,7 +170,7 @@ let tl5 = gsap.timeline({
         trigger: ".content-5",
         start:"20% 50%",
         end: "100% 50%",
-        markers: true,
+        // markers: true,
         scrub: 1,
     },  
 });
@@ -198,14 +201,14 @@ let tl7 = gsap.timeline({
         start:"50% 50%",
         end: "300% 50%",
         pin:true,
-        // markers: true,
+        markers: true,
         scrub: 1,
     },  
 });
 tl7.to("#demo",{
-    bottom:"7%",
+    bottom:"5%",
 })
-tl7.to(".our-work-txt-div",{
+tl7.to(".our-work-text-div",{
     height:"60vh",
 }, 'height')
 tl7.to(".our-work",{
