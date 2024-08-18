@@ -128,6 +128,9 @@ tl4.to(".c-one",{
 tl4.to(".c-two",{
     opacity:"1",
 }, 'sct-2')
+tl4.to(".cir-part-4",{
+    rotate: 120,
+}, 'sct-2')
 tl4.to(".c-one",{
     marginTop: "-100",
     opacity:"0",
@@ -138,17 +141,40 @@ tl4.to(".c-three",{
 tl4.to(".c-two",{
     opacity:"0",
 }, 'sct-3')
+tl4.to(".cir-part-4",{
+    rotate: 260,
+}, 'sct-3')
 tl4.to(".c-one",{
     marginTop:"-180%",
 }, 'sct-3')
 tl4.to(".c-one",{
     marginTop:"-230%",
 }, 'sct-4')
+tl4.to(".cir-part-4",{
+    rotate: 300,
+}, 'sct-4')
 tl4.to(".c-three",{
     opacity:"0",
 }, 'sct-4')
 tl4.to(".cir-part-4",{
-    marginLeft:"100%",
-    rotate: 360
-}, 'sct-4')
+    marginLeft:"94%",
+    rotate: 400,
+    scrub: true,
+})
 
+let tl5 = gsap.timeline({
+    scrollTrigger:{
+        trigger: ".content-5",
+        start:"20% 50%",
+        end: "100% 50%",
+        markers: true,
+        scrub: 1,
+    },  
+});
+tl5.to(".content-5 .text-area-blur-5 h1",{
+    width:"100%",
+})
+tl5.to(".content-5 .text-area-blur-5 h2",{
+    delay: -0.4,
+    width:"100%",
+})
