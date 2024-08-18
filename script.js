@@ -201,7 +201,7 @@ let tl7 = gsap.timeline({
         start:"50% 50%",
         end: "300% 50%",
         pin:true,
-        markers: true,
+        // markers: true,
         scrub: 1,
     },  
 });
@@ -221,5 +221,5 @@ tl7.to("#work",{
     right:"0%",
 }, 'height')
 tl7.to(".scroll-img",{
-    marginTop:"-300%",
+    marginTop:"-400%",
 })
